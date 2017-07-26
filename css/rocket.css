@@ -42,6 +42,11 @@
     bottom: 1000px
 }
 
+.interface{
+    text-align: center;
+    padding: 20px;
+}
+
 body.body-state1 .rocket{
     transition: none;
 }
@@ -52,6 +57,9 @@ body.body-state4 .rocket
     bottom: 1000px
 }
 
+body{
+    font-family: 'helvetica', 'arial',sans-serif;
+}
 
 .state1,
 .state2,
@@ -67,10 +75,21 @@ body.body-state3 .state3{display: block;}
 body.body-state4 .state4{display: block;}
 body.body-state5 .state5{display: block;}
 
-a{
+
+
+a.button{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: color 200ms;
 
 }
 
-a.button{
+a:hover{
+    color: red;
 
 }

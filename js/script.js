@@ -1,5 +1,9 @@
 /* to change color */
 
+setTimeout(function() {
+	location.href='rockets.html';
+}, 1000);
+
 	var doCoolStuff = function(){
 		//change class name
 		var currentClassName = document.getElementById('cool').className;
